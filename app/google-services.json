@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "546943763218",
-    "project_id": "rakudasoft001",
-    "storage_bucket": "rakudasoft001.appspot.com"
+    "project_id": "rakuda001",
+    "storage_bucket": "rakuda001.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:546943763218:android:28d60bb0618622531ae9cb",
         "android_client_info": {
-          "package_name": "com.rakudasoft.simplecolorscreen"
+          "package_name": "com.rakuda.simplecolorscreen"
         }
       },
       "oauth_client": [

@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.rakudasoft.simplecolorscreen",
+  "applicationId": "com.rakuda.simplecolorscreen",
   "variantName": "processReleaseResources",
   "elements": [
     {

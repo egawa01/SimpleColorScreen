@@ -1,4 +1,4 @@
-package com.rakudasoft.simplecolorscreen
+package com.rakuda.simplecolorscreen
 
 import android.content.Intent
 import android.graphics.Color
