@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     private val tag = "Simple ColorScreen"
-    private val appID = "ca-app-pub-3940256099942544~3347511713" // テスト用
+    // private val appID = "ca-app-pub-3940256099942544~3347511713" // テスト用
     //   private val adUnitId="ca-app-pub-3940256099942544/6300978111" // テスト用
 
 
@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         val savedSelection = getSharedPreferences(getString(R.string.pref_filename), MODE_PRIVATE).getInt(getString(R.string.pref_label_color), 0)
         spinnerColor.setSelection(savedSelection)
 
-        MobileAds.initialize(this, appID)
+        MobileAds.initialize(this)
         val adRequest : AdRequest = AdRequest.Builder()
             .build()
         adView.loadAd(adRequest)

@@ -14,7 +14,7 @@
         android:theme="@style/Theme.SimpleColorScreen">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-9916559477604684~5157116813"/>
 
         <activity android:name=".ScreenActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
